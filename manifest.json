@@ -2,7 +2,7 @@
 
 {
   "manifest_version": 3,
-  "name": "QueryFlow",
+  "name": "InChat-Finder",
   "version": "1.0",
   "description": "Search your AI chats in real-time",
   "permissions": ["storage", "scripting", "activeTab"],
@@ -24,3 +24,4 @@
     }
   ]
 }
+
