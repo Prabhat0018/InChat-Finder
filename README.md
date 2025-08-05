@@ -1,6 +1,6 @@
 "# InChat-Finder" 
 
-**InChat-Finder** is a Chrome extension that lets you **search, highlight, and instantly jump** to specific questions, answers, or keywords inside long conversations with AI tools like ChatGPT, Claude, Gemini, etc.
+**InChat-Finder** is a Chrome extension that lets you **search, highlight, and instantly jump** to specific questions, answers, or keywords inside long conversations with ChatGpt.
 
 Say goodbye to endless scrolling. Find what matters — instantly.
 
@@ -11,7 +11,7 @@ Say goodbye to endless scrolling. Find what matters — instantly.
 - 🔎 Real-time search inside chat windows
 - ✨ Highlights matching questions/answers
 - 🧭 Click to jump directly to the matched message
-- 🧠 Works with most web-based AI tools (ChatGPT, Gemini, Claude, etc.)
+- 🧠 Works only on Chatgpt(on brower) for now on.
 - ⚡ Fast, lightweight, and privacy-focused
 
 ---
