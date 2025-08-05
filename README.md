@@ -69,21 +69,21 @@ In chat -finder uses a simple but effective DOM traversal and matching strategy:
 DOM Parsing: It identifies individual message nodes inside the chat window by detecting consistent class patterns or data attributes.
 
 Search & Highlight:
-
+--
 Iterates through all messages
 
 Compares message content with user input using string matching (case-insensitive, partial match)
 
 Highlights matched messages using dynamic HTML spans
 
-
+--
 Scroll-to-Jump:
 
 Each matched message is assigned a temporary unique ID
 
 Clicking a result triggers scrollIntoView() on the corresponding DOM node
 
-
+--
 Modular Design:
 
 popup.js: Handles UI interactions and result rendering
@@ -92,7 +92,7 @@ content.js: Injects logic into the active chat page
 
 highlight.js: Applies/removes highlights dynamically
 
-
+--
 Communication: Uses chrome.runtime.sendMessage() to talk between background and content scripts
 
 
