@@ -40,6 +40,7 @@ chrome://extensions/
 ---
 
 🛠️ How to Use
+--
 
 1. Open a long conversation in ChatGPT (or any supported AI tool).
 
@@ -61,7 +62,7 @@ chrome://extensions/
 ---
 
 📐 How It Works (Under the Hood)
-
+--
 In chat -finder uses a simple but effective DOM traversal and matching strategy:
 
 🔧 Algorithms & Techniques
@@ -76,15 +77,15 @@ Compares message content with user input using string matching (case-insensitive
 
 Highlights matched messages using dynamic HTML spans
 
---
 Scroll-to-Jump:
+--
 
 Each matched message is assigned a temporary unique ID
 
 Clicking a result triggers scrollIntoView() on the corresponding DOM node
 
---
 Modular Design:
+--
 
 popup.js: Handles UI interactions and result rendering
 
@@ -92,7 +93,6 @@ content.js: Injects logic into the active chat page
 
 highlight.js: Applies/removes highlights dynamically
 
---
 Communication: Uses chrome.runtime.sendMessage() to talk between background and content scripts
 
 
@@ -113,6 +113,7 @@ Communication: Uses chrome.runtime.sendMessage() to talk between background and 
 ---
 
 🔒 Privacy & Data
+--
 
 We do not collect, store, or transmit any personal data or conversation content. All search and navigation happens locally in your browser.
 
@@ -131,6 +132,7 @@ Chatgpt
 -----
 
 🙌 Credits
+--
 
 Created by Prabhat yadav.
 Inspired by the need to reduce scrolling pain while working with AI chats. It will be usefull from now on until gpt made a upgrade of it by itself. 
