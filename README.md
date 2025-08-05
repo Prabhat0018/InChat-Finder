@@ -20,7 +20,7 @@ Say goodbye to endless scrolling. Find what matters — instantly.
 
 1. **Clone or Download the Repo**  
    ```bash
-   git clone https://github.com/yourusername/queryflow-extension.git
+   git clone https://github.com/Prabhat0018/queryflow-extension.git
 
 
 2. Open Chrome and go to
