@@ -101,13 +101,13 @@ Communication: Uses chrome.runtime.sendMessage() to talk between background and 
 
 🧩 Files Overview
 
-📁 In chat-finder-extension/
-├── manifest.json         # Chrome extension metadata
-├── popup.html            # Extension popup UI
-├── popup.js              # Logic for search bar and results
-├── content.js            # Injected into the page to find and scroll to chat
-├── highlight.js          # Applies highlights to matched messages
-├── style.css             # Basic styling
+```📁 In chat-finder-extension/<br>```
+```├── manifest.json         # Chrome extension metadata ```
+```├── popup.html            # Extension popup UI```
+```├── popup.js              # Logic for search bar and results```
+```├── content.js            # Injected into the page to find and scroll to chat```
+```├── highlight.js          # Applies highlights to matched messages```
+```├── style.css             # Basic styling```
 
 
 ---
